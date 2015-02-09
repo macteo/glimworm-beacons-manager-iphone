@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.glimworm.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>it.dimension.glimworm</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -24,6 +24,12 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This applications looks for iBeacons</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This applications looks for iBeacons</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This applications looks for iBeacons</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
